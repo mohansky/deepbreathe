@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{{ partial "header.html" . }}
+</head>
+<body>
+
+	{{ partial "navigation.html" . }}
+
+          
+                <p>{{ .Content }}</p></div>
+          
+          
+          
+            <!-- <div class="row">
+	        <div>
+	          <div class="block">
+							{{ with .Params.image }}<img src="{{ . | absURL }}" width="100%" alt="post-image"> {{ end }}
+	            <h1>{{ .Params.title }}</h1>
+	            <div class="post-info-wrapper">
+	              <p class="italic">By <span class="bold">{{ .Params.author }}</span> on <span class="bold">{{ .Site.Params.dateFormat | default "Jan 2, 2006" | .Date.Format }}</span></p>
+	            </div>
+							<hr />
+							<div class="col-sm-1 row"></div>
+							<div class="col-sm-10 row">
+	            <p>{{ .Content }}</p></div>
+	          </div>
+	        </div>.col-md-7 close
+	    </div> -->
+	      </div>
+	  </section>
+	</div>
+
+	{{ partial "footer.html" . }}
+</body>
+</html>

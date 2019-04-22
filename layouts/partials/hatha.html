@@ -1,0 +1,33 @@
+{{ if .Site.Params.hatha.enable }}
+    {{"<!-- About Section -->" | safeHTML}}
+    <section id="about" class="section about bg-gray">
+        <div class="container">
+            
+                <div class="col-md-12 col-sm-12 wow fadeInLeft ">
+                        <div class="content">
+                            <div class="sub-heading text-center">
+                            {{ with .Site.Params.hatha.heading }}
+                                <h3>{{ . }}</h3>
+                            {{ end }}
+                            
+                        </div>
+                    </div>
+                    
+            <div class="row">
+                    <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
+                        {{ partial "slider1.html" . }}
+                    </div>   
+
+<br> <br> 
+                <div class="col-md-7 col-sm-12 wow fadeInLeft">
+                    <div class="content">
+                         
+                        {{ with .Site.Params.hatha.description }}
+                            <p>{{ . | markdownify }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+{{ end }}
