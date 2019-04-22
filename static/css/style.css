@@ -282,6 +282,7 @@ a:active {
 }
 
 .hero-area {
+  background-image: url(/images/header-bg.jpg);  
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
@@ -289,6 +290,12 @@ a:active {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 640px) {
+  .hero-area {
+  background-image: url(/images/header-bg640.jpg);
+  }
+  }
 
 .hero-area h1 {
   color: #fff;
