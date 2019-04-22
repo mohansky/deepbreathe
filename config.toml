@@ -1,0 +1,103 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Deep Breathe Yoga Studio"
+theme = "infinity-hugo"
+
+[params]
+
+    # Navigation
+    [params.navigation]
+        logo = "images/dblogo.png"
+        home = "Home"
+        about = "About"
+		service = " "
+		fees = "Fees"
+		contact = "Contact"
+
+    # Hero Area
+    [params.hero]
+        enable      = true
+        bg          = "images/header-bg.jpg"
+		title       = "Deep Breathe..."
+		title1       = "Yoga Studio"
+        subtitle    = "Bring your awareness, is all you will need (and of course your yoga mat) . Explore your body flow and align with the universe with every breath. As we move, hold our pose together, we take a step forward to develop our awareness and rediscover the subtle aspects that define our very existence; in every breath. Join us, soak in the goodness of yoga. Breathe!"
+        btnText     = "Get Started"
+        countdownYear = "2019"
+        countdownMonth = "12"
+        countdownDay  = "27"
+
+    # About Section
+    [params.about]
+        enable      = true
+        heading     = "A little about me"
+        description = "On completing my post graduate from King's College London, my future set to be in the lane of resolving policies, understanding economic forecast, studying world political views and the economies they effect (I always go breathless here). While I enjoyed my education, albeit, set to take on world by storm with the odds already against me (being a woman in a domain dominated by men) I couldn't help but notice, I felt a greater calling from the universe, call. ​<br> <br> I’m a football playing, sport loving, beach hungry native of Goa, now back home and looking for work. I began a new journey, curious about meditation and yoga, started reading and noticed a growing connection with the subject. Next I was in Bangalore, enrolled in the a1000 yoga academy, who helped me move in the right direction - transforming me into a certified yoga teacher in the Hatha Yoga practice, dating back to the 2nd century BC."
+	    
+       
+	# Hatha Section
+	[params.hatha]
+		enable      = true
+		heading     = "Movement with Hatha Yoga"
+		description = "Hatha Yoga, which literally means “union through discipline of force”, is a school of thought in Yoga with emphasis on the mastery of the body, to attain a state of spiritual perfection, where the mind is withdrawn from external objects. I believe Hatha yoga has helped me align and calm my body, mind and spirit; preparing me to meditate better. While Hatha yoga helps develop flexibility we can't help but notice the sudden gain in strength, concentration as-well-as the vitality of muscles, joints and organs. Practicing Yoga correctly cleanses the body from toxins, to go a disease-free lifestyle almost blindly now. The ultimate aim of Hatha Yoga is to connect with one's self. Or as we call it, Self Awareness."
+
+		
+    
+    # Service Section
+    [params.service]
+        enable      = true
+        title       = " Inspire for Yoga"
+        subtitle    = " "
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+			# icon    = "tf-strategy"
+			image    = "images/yoga1.svg"
+            title   = "Yoga is a process of replacing old patterns with new and more appropriate patterns."
+            description = "Sri. T Krishnamacharya"
+            delay   = "0s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            # icon    = "tf-circle-compass" 
+			image    = "images/yoga2.svg"
+			title   = "You may go on reading any number of books on meditation. They can only tell you 'REALIZE THE SELF'. The self cannot be found in books. You have to find it for yourself in yourself."
+            description = "Ramana Maharshi"
+            delay   = "0.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+			# icon    = "images/yoga3.svg"
+			image    = "images/yoga3.svg"
+            title   = "Yoga is like music: the rhythm of the body, melody of the mind, and harmony of the soul create symphony of life"
+            description = "B.K.S Iyengar"
+            delay   = "0.4s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            # icon    = "tf-globe"
+			image    = "images/yoga.svg"
+			title   = "So whether you do your first downward dog at 14 or 44, it's not your history but your presence on your mat that counts"
+            description = "K. Pattabhi Jois"
+            delay   = "0.6s"
+        
+    
+    # Call to Action Section
+    [params.cta]
+        enable      = true
+        bg          = "images/call-to-action.jpg"
+        title       = "Get a download of our tariffs"
+        subtitle    = " "
+
+    [params.contact]
+        enable      = true
+        title       = "Get In Touch"
+		address    = "#18, 1st floor, L&L pride building, next to kfc,"
+		address1    = "beside KTC bus stand, Margao, Goa, India-403601"
+		email       = "shimgane37@gmail.com "
+		phone		= " +91 776 014 1824 "
