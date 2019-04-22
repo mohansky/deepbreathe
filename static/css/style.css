@@ -299,6 +299,14 @@ a:active {
   text-shadow: #7c7c7c 3px 3px 3px;
 }
 
+@media screen and (max-width: 640px) {
+.hero-area h1
+{
+  padding-top: 19px;
+  font-size: 40px;
+}
+}
+
 .hero-area p {
   color: #fff;
   font-size: 20px;
