@@ -282,7 +282,7 @@ a:active {
 }
 
 .hero-area {
-  background-image: url(/images/header-bg.jpg);  
+  background-image: url(/images/header-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
@@ -310,9 +310,23 @@ a:active {
 .hero-area h1
 {
   padding-top: 19px;
-  font-size: 40px;
+  font-size: 20px;
 }
 }
+
+.hero-area h2 {
+   
+  text-shadow: #7c7c7c 3px 3px 3px;
+}
+
+@media screen and (max-width: 640px) {
+.hero-area h2
+{
+    font-size: 20px;
+}
+}
+
+
 
 .hero-area p {
   color: #fff;
@@ -391,7 +405,18 @@ a:active {
 .navigation .navbar-brand {
   padding-top: 5px;
   display: inline-block;
+   
 }
+
+@media screen and (max-width: 640px) {
+
+.navigation .navbar-brand 
+  {
+   width: 40%; 
+    
+  }
+}
+
 
 .navigation .navbar-toggler {
   background: #fff;
@@ -402,6 +427,8 @@ a:active {
 
 .navigation .navbar-toggler i {
   font-size: 22px;
+  
+  
 }
 
 .navigation.animated {
@@ -417,6 +444,7 @@ a:active {
   color: #fff;
   font-size: 20px;
   font-weight: bold;
+  align-items: left;
 }
 
 .menu li a:hover,
@@ -631,4 +659,22 @@ footer p a:hover {
   padding: 10px 13px;
 }
 
+.hidden-xs{
+  display: block;
+}
 
+@media  (max-width: 720px) {
+  .hidden-xs{
+    display: none;
+  }
+}
+
+.hidden{
+  display: block;
+}
+
+@media  (max-width: 720px) {
+  .hidden {
+    margin-top: -200px;
+  }
+}
