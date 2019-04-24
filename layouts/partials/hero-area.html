@@ -1,13 +1,17 @@
 {{ if .Site.Params.hero.enable }}
     {{"<!-- Hero Area Section -->" | safeHTML}}
     <section class="hero-area" >
-        <!--style='background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");'> -->
+
+    <!--style='background-image: url("{{ with .Site.Params.hero.bg }} {{ . }}{{ end }}");'> -->
+    
         <div class="container">
             <div class="row">
                     <div class="col-lg-6"> </div>
                     
-                    <div class="col-lg-6  ">
+                    <div class="col-lg-6">
                     <div class="block">
+                      
+                    <div class="hidden-xs">   
                         {{ with .Site.Params.hero.title }} 
                         <h1 class="wow fadeInDown" data-wow-delay="0.3s" data-wow-duration=".2s">
                             {{ . }}
@@ -19,13 +23,16 @@
                             {{ . }}
                         </h2>
                         {{ end }}
-                        
+                    </div>
+                    
                         <br> <br>
+                        <div class="hidden">  
                         {{ with .Site.Params.hero.subtitle }}
                         <p class="wow fadeInDown" data-wow-delay="0.5s" data-wow-duration=".5s">
                             {{ . }}
                         </p>
                         {{ end }}
+                        </div>
                        <!-- {{ with .Site.Params.hero.btnText }}
                         <div class="wow fadeInDown" data-wow-delay="0.7s" data-wow-duration=".7s">
                             <a class="btn btn-home" href="#about" role="button">
