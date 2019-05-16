@@ -91,7 +91,7 @@ theme = "infinity-hugo"
     [params.cta]
         enable      = true
         bg          = "images/call-to-action.jpg"
-        title       = "Get a download of our tariffs"
+        title       = "Get a download of our tariff card"
         subtitle    = " "
 
     [params.contact]
